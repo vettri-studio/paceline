@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PACELINE Our Story - Founded in 2015, we are an independent running specialty store and community hub in Glasgow.">
+  <title>Our Story | PACELINE Running Co.</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap" rel="stylesheet">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22 font-weight=%22900%22 fill=%22%23d6f83b%22>P</text></svg>">
+</head>
+<body class="about-page">
+
+  <!-- Top Announcement Bar -->
+  <div class="announcement-bar">
+    <div class="announcement-content container-fluid">
+      <span class="announcement-left">FREE UK DELIVERY OVER £75 · 30-DAY RETURNS</span>
+      <span class="announcement-center">AUTUMN '26 — NEW ARRIVALS DROPPING WEEKLY</span>
+      <span class="announcement-right">STORE: GLASGOW · EN / £ GBP</span>
+    </div>
+  </div>
+
+  <!-- Header / Navigation -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-inner container-fluid">
+      <!-- Logo -->
+      <a href="index.html" class="brand-logo" aria-label="PACELINE Home">PACELINE</a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="main-nav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="index.html#men" class="nav-link">Men</a></li>
+          <li><a href="index.html#women" class="nav-link">Women</a></li>
+          <li><a href="index.html#footwear" class="nav-link">Footwear</a></li>
+          <li><a href="index.html#apparel" class="nav-link">Apparel</a></li>
+          <li><a href="index.html#brands" class="nav-link">Brands</a></li>
+          <li><a href="index.html#sale" class="nav-link highlight-sale">Sale</a></li>
+          <li><a href="about.html" class="nav-link active">About</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Icons -->
+      <div class="header-actions">
+        <!-- Search Trigger -->
+        <button class="action-btn search-trigger" id="searchBtn" aria-label="Search site">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </button>
+
+        <!-- User Profile -->
+        <button class="action-btn profile-trigger" id="profileBtn" aria-label="User account">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+            <circle cx="12" cy="7" r="4"></circle>
+          </svg>
+        </button>
+
+        <!-- Shopping Cart Trigger -->
+        <button class="action-btn cart-trigger" id="cartBtn" aria-label="Shopping Cart">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <path d="M16 10a4 4 0 0 1-8 0"></path>
+          </svg>
+          <span class="cart-badge" id="cartBadge">0</span>
+        </button>
+
+        <!-- Mobile Menu Hamburger -->
+        <button class="action-btn mobile-menu-toggle" id="mobileMenuBtn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-nav-drawer" id="mobileNav">
+      <ul class="mobile-nav-list">
+        <li><a href="index.html#men" class="mobile-nav-link">Men</a></li>
+        <li><a href="index.html#women" class="mobile-nav-link">Women</a></li>
+        <li><a href="index.html#footwear" class="mobile-nav-link">Footwear</a></li>
+        <li><a href="index.html#apparel" class="mobile-nav-link">Apparel</a></li>
+        <li><a href="index.html#brands" class="mobile-nav-link">Brands</a></li>
+        <li><a href="index.html#sale" class="mobile-nav-link highlight-sale">Sale</a></li>
+        <li><a href="about.html" class="mobile-nav-link active">About</a></li>
+      </ul>
+      <div class="mobile-nav-footer">
+        <p>STORE: GLASGOW · EN / £ GBP</p>
+        <p class="muted">Free UK delivery over £75</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Page Content -->
+  <main class="page-body about-main">
+
+    <!-- About Hero Section -->
+    <section class="about-hero-section">
+      <div class="container">
+        <!-- Breadcrumbs -->
+        <nav class="breadcrumb-nav" aria-label="Breadcrumb">
+          <span>HOME</span>
+          <span class="breadcrumb-separator">/</span>
+          <span class="breadcrumb-current">ABOUT</span>
+        </nav>
+
+        <!-- Main Title -->
+        <h1 class="about-main-title">Our Story</h1>
+
+        <!-- Subtitle Paragraph -->
+        <p class="about-hero-lead">
+          We opened Paceline in 2015 with one goal — to build the running shop we'd always wanted. A decade in, we're still hand-picking every shoe, every layer and every accessory for runners just like us.
+        </p>
+
+        <!-- Big Hero Banner Image -->
+        <div class="about-hero-img-box">
+          <img src="assets/About/main_story_section/image_joggers.png" alt="Runners lined up at starting line ready to race" class="about-hero-img" loading="eager">
+        </div>
+      </div>
+    </section>
+
+    <!-- 01 · WHY WE EXIST SECTION -->
+    <section class="section section-why-we-exist" id="why-we-exist">
+      <div class="container">
+        <div class="why-exist-grid">
+          <!-- Left Column -->
+          <div class="why-left-col">
+            <span class="section-tag-num">01 · WHY WE EXIST</span>
+            <h2 class="why-title">We're all about the run.</h2>
+          </div>
+
+          <!-- Right Column -->
+          <div class="why-right-col">
+            <p class="why-paragraph">
+              If your aim is 5K or 26.2 miles, on road or trail, we're here to prepare, empower and equip you — from your first training run through to race-day. Our tried-and-tested range covers road, trail, track and field, apparel and accessories, with zero compromise on performance or style.
+            </p>
+            <p class="why-paragraph">
+              Paceline is small and independent, but the community around it is anything but. We run our own weekly club, host free gait analysis, and partner with local charities so 20% of profits from kids' kits go to Girls Run Glasgow.
+            </p>
+            <p class="why-paragraph">
+              Whatever mile you're on, we want to be your shop. Come say hello.
+            </p>
+            <p class="why-signature">— Rae & Jamie, Founders</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 02 · WHAT WE STAND FOR SECTION -->
+    <section class="section section-values" id="values">
+      <div class="container">
+        <div class="section-title-wrap mb-40">
+          <span class="section-tag-num">02 · WHAT WE STAND FOR</span>
+          <h2 class="section-heading">Three things we won't compromise on.</h2>
+        </div>
+
+        <!-- 3 Value Cards -->
+        <div class="values-grid">
+          <!-- Card 1 -->
+          <div class="value-card">
+            <span class="value-num num-orange">01</span>
+            <h3 class="value-card-title">Curated, not sold to us.</h3>
+            <p class="value-card-text">
+              Every brand we carry has been tested, worn and vouched for by our team. If it doesn't perform on a Glasgow winter long run, it doesn't hit our wall.
+            </p>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="value-card">
+            <span class="value-num num-lime">02</span>
+            <h3 class="value-card-title">Community over transaction.</h3>
+            <p class="value-card-text">
+              Free gait analysis, weekly run clubs, and race-day support. Come in for shoes, stay for the miles. Ask for Rae — she'll get you laced up right.
+            </p>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="value-card">
+            <span class="value-num num-amber">03</span>
+            <h3 class="value-card-title">Craft in every detail.</h3>
+            <p class="value-card-text">
+              From how we lay out the store to how we pack an order — the small stuff matters. We've spent a decade sweating the details so your run is smoother.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 03 · TEN SEASONS IN (Timeline Section) -->
+    <section class="section section-timeline" id="timeline">
+      <div class="container">
+        <div class="section-title-wrap mb-40">
+          <span class="section-tag-num">03 · TEN SEASONS IN</span>
+          <h2 class="section-heading">How we got here.</h2>
+        </div>
+
+        <!-- Timeline 4-Column Row -->
+        <div class="timeline-row">
+          <!-- Step 1: 2015 -->
+          <div class="timeline-item">
+            <span class="timeline-year">2015</span>
+            <h3 class="timeline-title">Doors open.</h3>
+            <p class="timeline-text">
+              Rae opens a 40-sqm shop on Great Western Road with 3 shoe brands and a lot of hope.
+            </p>
+          </div>
+
+          <!-- Step 2: 2018 -->
+          <div class="timeline-item">
+            <span class="timeline-year">2018</span>
+            <h3 class="timeline-title">The clinic launches.</h3>
+            <p class="timeline-text">
+              Free gait analysis and injury consults every Saturday — booked out in weeks.
+            </p>
+          </div>
+
+          <!-- Step 3: 2022 -->
+          <div class="timeline-item">
+            <span class="timeline-year">2022</span>
+            <h3 class="timeline-title">Weekly run club.</h3>
+            <p class="timeline-text">
+              Every Wednesday, rain or shine. Started with 6 runners, now averages 80+.
+            </p>
+          </div>
+
+          <!-- Step 4: 2026 -->
+          <div class="timeline-item">
+            <span class="timeline-year">2026</span>
+            <h3 class="timeline-title">40 brands & counting.</h3>
+            <p class="timeline-text">
+              Twenty seasons in, still hand-picking every product. Same team, same goal.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04 · COME SAY HI (Store / Visit Us Split) -->
+    <section class="section-visit-split" id="visit-us">
+      <div class="visit-split-grid">
+        <!-- Left Column: Dark Panel -->
+        <div class="visit-left-col">
+          <div class="visit-content-inner">
+            <span class="visit-tag">04 · COME SAY HI</span>
+            <h2 class="visit-title">Visit us in</h2>
+            
+            <div class="store-details-block">
+              <h3 class="store-location-name">Glasgow Flagship Store</h3>
+              <p class="store-address">
+                142 Great Western Road<br>
+                Kelvinbridge, Glasgow G4 9NT<br>
+                United Kingdom
+              </p>
+
+              <div class="store-hours-grid">
+                <div>
+                  <span class="hours-day">Mon — Fri:</span>
+                  <span class="hours-time">09:30 — 18:30</span>
+                </div>
+                <div>
+                  <span class="hours-day">Saturday:</span>
+                  <span class="hours-time">09:00 — 18:00</span>
+                </div>
+                <div>
+                  <span class="hours-day">Sunday:</span>
+                  <span class="hours-time">11:00 — 17:00</span>
+                </div>
+              </div>
+
+              <div class="visit-buttons-row">
+                <a href="https://maps.google.com/?q=Great+Western+Road+Glasgow" target="_blank" rel="noopener" class="btn btn-outline-white btn-sm">
+                  GET DIRECTIONS →
+                </a>
+                <button class="btn btn-primary btn-sm" id="bookClinicBtn">
+                  BOOK GAIT CLINIC
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Map Image -->
+        <div class="visit-right-col">
+          <img src="assets/About/visit_us_section/map.png" alt="Map of Glasgow with Paceline store pin location" class="visit-map-img" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- 05 · MEET THE FOUNDERS SECTION -->
+    <section class="section section-founders" id="founders">
+      <div class="container">
+        <div class="section-title-wrap mb-40">
+          <span class="section-tag-num">05 · MEET THE FOUNDERS</span>
+          <h2 class="section-heading">The people behind the shop.</h2>
+        </div>
+
+        <!-- 2-Column Founder Cards -->
+        <div class="founders-grid">
+          <!-- Founder 1: Rae Sinclair -->
+          <article class="founder-card">
+            <div class="founder-img-box">
+              <img src="assets/About/founders_section/image1.png" alt="Rae Sinclair - Founder & Head Buyer" class="founder-img" loading="lazy">
+              <span class="founder-badge">12x sub-3 marathoner</span>
+            </div>
+            <div class="founder-info">
+              <h3 class="founder-name">Rae Sinclair</h3>
+              <p class="founder-role">Founder & Head Buyer</p>
+              <p class="founder-bio">
+                A former GB triathlete turned shopkeeper. Rae hand-picks every shoe on the wall and still runs the Wednesday club — sub-3 marathoner, twelve times over.
+              </p>
+            </div>
+          </article>
+
+          <!-- Founder 2: Jamie Roy -->
+          <article class="founder-card">
+            <div class="founder-img-box">
+              <img src="assets/About/founders_section/image2.png" alt="Jamie Roy - Co-Founder & Coach" class="founder-img" loading="lazy">
+              <span class="founder-badge">20+ years coaching</span>
+            </div>
+            <div class="founder-info">
+              <h3 class="founder-name">Jamie Roy</h3>
+              <p class="founder-role">Co-Founder & Coach</p>
+              <p class="founder-bio">
+                Sports physio and coach with two decades in the sport. Runs our free Saturday clinic, coaches the club, and knows more about your gait than you do.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- BIG LIME CTA BANNER (READY TO RUN?) -->
+    <section class="section-lime-cta">
+      <div class="container text-center">
+        <span class="lime-cta-tag">READY TO RUN?</span>
+        <h2 class="lime-cta-title">Come find your next<br>pair of shoes.</h2>
+        <div class="lime-cta-buttons">
+          <a href="index.html#new-arrivals" class="btn btn-dark">SHOP FOOTWEAR</a>
+          <button class="btn btn-outline-dark" id="gaitAnalysisModalTrigger">BOOK GAIT ANALYSIS</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER SUBSCRIPTION BAR -->
+    <section class="newsletter-section" id="newsletter">
+      <div class="container">
+        <div class="newsletter-inner">
+          <div class="newsletter-text-wrap">
+            <h2 class="newsletter-title">Join the Paceline club.</h2>
+            <p class="newsletter-sub">Early access to new drops, race-day tips, and 10% off your first order.</p>
+          </div>
+          <form class="newsletter-form" id="newsletterForm" onsubmit="return false;">
+            <div class="newsletter-input-group">
+              <input type="email" class="newsletter-input" id="newsletterEmail" placeholder="your@email.com" required aria-label="Email address for newsletter">
+              <button type="submit" class="btn btn-subscribe" id="subscribeBtn">SUBSCRIBE</button>
+            </div>
+            <div class="form-feedback" id="newsletterFeedback"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1: Brand info -->
+        <div class="footer-col footer-col-brand">
+          <a href="index.html" class="footer-logo">PACELINE</a>
+          <p class="footer-brand-desc">
+            Race-day gear, trail-tested essentials, and everyday running kit — curated in Glasgow since 2015.
+          </p>
+        </div>
+
+        <!-- Col 2: SHOP -->
+        <div class="footer-col">
+          <h4 class="footer-col-title">SHOP</h4>
+          <ul class="footer-links">
+            <li><a href="index.html#men">Men's</a></li>
+            <li><a href="index.html#women">Women's</a></li>
+            <li><a href="index.html#footwear">Footwear</a></li>
+            <li><a href="index.html#apparel">Apparel</a></li>
+            <li><a href="index.html#accessories">Accessories</a></li>
+            <li><a href="index.html#sale">Sale</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: HELP -->
+        <div class="footer-col">
+          <h4 class="footer-col-title">HELP</h4>
+          <ul class="footer-links">
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#shipping">Shipping</a></li>
+            <li><a href="#returns">Returns</a></li>
+            <li><a href="#size-guides">Size Guides</a></li>
+            <li><a href="#gait-analysis">Gait Analysis</a></li>
+            <li><a href="#faqs">FAQs</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: COMPANY -->
+        <div class="footer-col">
+          <h4 class="footer-col-title">COMPANY</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="about.html#visit-us">Store · Glasgow</a></li>
+            <li><a href="#sustainability">Sustainability</a></li>
+            <li><a href="#careers">Careers</a></li>
+            <li><a href="#wholesale">Wholesale</a></li>
+            <li><a href="#press">Press</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 5: FOLLOW -->
+        <div class="footer-col">
+          <h4 class="footer-col-title">FOLLOW</h4>
+          <ul class="footer-links">
+            <li><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></li>
+            <li><a href="https://strava.com" target="_blank" rel="noopener">Strava</a></li>
+            <li><a href="https://tiktok.com" target="_blank" rel="noopener">TikTok</a></li>
+            <li><a href="https://youtube.com" target="_blank" rel="noopener">YouTube</a></li>
+            <li><a href="#newsletter">Newsletter</a></li>
+            <li><a href="#blog">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Bottom Sub-Footer -->
+      <div class="footer-bottom-bar">
+        <p class="copyright-text">© 2026 Paceline Running Co. — All rights reserved.</p>
+        <ul class="legal-links">
+          <li><a href="#privacy">Privacy</a></li>
+          <li><a href="#terms">Terms</a></li>
+          <li><a href="#cookies">Cookies</a></li>
+          <li><a href="#accessibility">Accessibility</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Slide-in Shopping Cart Drawer -->
+  <div class="cart-drawer-overlay" id="cartOverlay"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping Cart Drawer" aria-hidden="true">
+    <div class="cart-drawer-header">
+      <h3 class="cart-drawer-title">Your Cart (<span id="cartItemCount">0</span>)</h3>
+      <button class="cart-drawer-close" id="closeCartBtn" aria-label="Close cart">&times;</button>
+    </div>
+    <div class="cart-drawer-body" id="cartDrawerBody">
+      <div class="empty-cart-state" id="emptyCart">
+        <p>Your bag is currently empty.</p>
+        <a href="index.html#new-arrivals" class="btn btn-primary btn-sm" id="shopNowCartBtn">Explore New In</a>
+      </div>
+      <div class="cart-items-list" id="cartItemsList"></div>
+    </div>
+    <div class="cart-drawer-footer" id="cartFooter">
+      <div class="cart-subtotal-row">
+        <span>Subtotal</span>
+        <span class="subtotal-amount" id="cartSubtotal">£0.00</span>
+      </div>
+      <p class="shipping-note">Free standard shipping on orders over £75</p>
+      <button class="btn btn-primary btn-block checkout-btn" id="checkoutBtn">CHECKOUT</button>
+    </div>
+  </aside>
+
+  <!-- Interactive Search Modal -->
+  <div class="search-modal" id="searchModal" aria-hidden="true">
+    <div class="search-modal-backdrop" id="searchModalBackdrop"></div>
+    <div class="search-modal-dialog">
+      <div class="search-input-wrap">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input type="text" id="searchInput" placeholder="Search shoes, apparel, accessories..." autofocus>
+        <button class="search-close-btn" id="closeSearchBtn">&times;</button>
+      </div>
+      <div class="search-results-box" id="searchResults">
+        <p class="search-hint">Popular: Cloudmonster, Vaporfly, Tecton X, Gait Analysis</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Gait Clinic Booking Modal -->
+  <div class="search-modal" id="bookingModal" aria-hidden="true">
+    <div class="search-modal-backdrop" id="bookingModalBackdrop"></div>
+    <div class="modal-dialog-custom">
+      <div class="modal-header-custom">
+        <h3>Book Free Gait Analysis</h3>
+        <button class="modal-close-btn" id="closeBookingBtn">&times;</button>
+      </div>
+      <form class="modal-form-custom" id="bookingForm" onsubmit="return false;">
+        <p class="modal-desc">Join Coach Jamie for a 30-minute high-speed treadmill video gait assessment at our Glasgow store.</p>
+        <div class="form-group-custom">
+          <label for="bookName">Full Name</label>
+          <input type="text" id="bookName" class="custom-input" placeholder="e.g. Alex Campbell" required>
+        </div>
+        <div class="form-group-custom">
+          <label for="bookEmail">Email Address</label>
+          <input type="email" id="bookEmail" class="custom-input" placeholder="alex@example.com" required>
+        </div>
+        <div class="form-row-custom">
+          <div class="form-group-custom">
+            <label for="bookDate">Preferred Saturday</label>
+            <input type="date" id="bookDate" class="custom-input" required>
+          </div>
+          <div class="form-group-custom">
+            <label for="bookTime">Time Slot</label>
+            <select id="bookTime" class="custom-input" required>
+              <option value="">Select Time</option>
+              <option value="10:00 AM">10:00 AM</option>
+              <option value="11:30 AM">11:30 AM</option>
+              <option value="02:00 PM">02:00 PM</option>
+              <option value="03:30 PM">03:30 PM</option>
+            </select>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block mt-20" id="confirmBookingBtn">CONFIRM APPOINTMENT</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>

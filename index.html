@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PACELINE - Race-day gear, trail-tested essentials, and everyday kit curated by runners in Glasgow since 2015.">
+  <title>PACELINE | Running Gear, Footwear & Apparel</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap" rel="stylesheet">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22 font-weight=%22900%22 fill=%22%23d6f83b%22>P</text></svg>">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="announcement-bar">
+    <div class="announcement-content container-fluid">
+      <span class="announcement-left">FREE UK DELIVERY OVER £75 · 30-DAY RETURNS</span>
+      <span class="announcement-center">AUTUMN '26 — NEW ARRIVALS DROPPING WEEKLY</span>
+      <span class="announcement-right">STORE: GLASGOW · EN / £ GBP</span>
+    </div>
+  </div>
+
+  <!-- Header / Navigation -->
+  <header class="site-header" id="siteHeader">
+    <div class="header-inner container-fluid">
+      <!-- Logo -->
+      <a href="index.html" class="brand-logo" aria-label="PACELINE Home">PACELINE</a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="main-nav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="#men" class="nav-link">Men</a></li>
+          <li><a href="#women" class="nav-link">Women</a></li>
+          <li><a href="#footwear" class="nav-link">Footwear</a></li>
+          <li><a href="#apparel" class="nav-link">Apparel</a></li>
+          <li><a href="#brands" class="nav-link">Brands</a></li>
+          <li><a href="#sale" class="nav-link highlight-sale">Sale</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Icons -->
+      <div class="header-actions">
+        <!-- Search Trigger -->
+        <button class="action-btn search-trigger" id="searchBtn" aria-label="Search site">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="11" cy="11" r="8"></circle>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+          </svg>
+        </button>
+
+        <!-- User Profile -->
+        <button class="action-btn profile-trigger" id="profileBtn" aria-label="User account">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+            <circle cx="12" cy="7" r="4"></circle>
+          </svg>
+        </button>
+
+        <!-- Shopping Cart Trigger -->
+        <button class="action-btn cart-trigger" id="cartBtn" aria-label="Shopping Cart">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <path d="M16 10a4 4 0 0 1-8 0"></path>
+          </svg>
+          <span class="cart-badge" id="cartBadge">0</span>
+        </button>
+
+        <!-- Mobile Menu Hamburger -->
+        <button class="action-btn mobile-menu-toggle" id="mobileMenuBtn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-nav-drawer" id="mobileNav">
+      <ul class="mobile-nav-list">
+        <li><a href="#men" class="mobile-nav-link">Men</a></li>
+        <li><a href="#women" class="mobile-nav-link">Women</a></li>
+        <li><a href="#footwear" class="mobile-nav-link">Footwear</a></li>
+        <li><a href="#apparel" class="mobile-nav-link">Apparel</a></li>
+        <li><a href="#brands" class="mobile-nav-link">Brands</a></li>
+        <li><a href="#sale" class="mobile-nav-link highlight-sale">Sale</a></li>
+        <li><a href="about.html" class="mobile-nav-link">About</a></li>
+      </ul>
+      <div class="mobile-nav-footer">
+        <p>STORE: GLASGOW · EN / £ GBP</p>
+        <p class="muted">Free UK delivery over £75</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="hero">
+    <div class="hero-background-wrapper">
+      <img src="assets/Home/hero_section/image1.png" alt="Athlete running on mountain trail" class="hero-bg-img" loading="eager">
+      <div class="hero-overlay-gradient"></div>
+    </div>
+
+    <div class="container hero-container">
+      <div class="hero-content">
+        <span class="hero-subtitle-tag">AUTUMN / WINTER '26 COLLECTION</span>
+        <h1 class="hero-title">Chase<br>Every Second.</h1>
+        <p class="hero-description">
+          Race-day gear, trail-tested essentials, and everyday kit — curated by runners, worn on every terrain.
+        </p>
+        <div class="hero-cta-group">
+          <a href="#new-arrivals" class="btn btn-primary">
+            SHOP NEW ARRIVALS
+            <svg class="btn-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+          <a href="about.html" class="btn btn-outline-light">READ OUR STORY</a>
+        </div>
+      </div>
+
+      <!-- Carousel / Slide indicators -->
+      <div class="hero-indicators" aria-hidden="true">
+        <span class="indicator active"></span>
+        <span class="indicator"></span>
+        <span class="indicator"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content Wrapper -->
+  <main class="page-body">
+
+    <!-- 01 · SHOP BY CATEGORY SECTION -->
+    <section class="section section-categories" id="categories">
+      <div class="container">
+        <!-- Section Header -->
+        <div class="section-header-flex">
+          <div class="section-title-wrap">
+            <span class="section-tag-num">01 · SHOP BY CATEGORY</span>
+            <h2 class="section-heading">Every discipline. Every distance.</h2>
+          </div>
+          <a href="#new-arrivals" class="section-top-link" id="viewAllCollectionsBtn">
+            VIEW ALL COLLECTIONS
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        </div>
+
+        <!-- 4-Column Category Grid -->
+        <div class="category-grid">
+          <!-- Card 1: Road Running -->
+          <article class="category-card" data-category="road">
+            <div class="category-image-wrap">
+              <img src="assets/Home/category_section/image1.png" alt="Runner on asphalt street" class="category-img" loading="lazy">
+              <div class="category-card-overlay"></div>
+            </div>
+            <div class="category-card-content">
+              <h3 class="category-card-title">Road Running</h3>
+              <p class="category-card-sub">Speed, cushion, race-day.</p>
+              <a href="#category-road" class="category-card-link">
+                SHOP
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 2: Trail Running -->
+          <article class="category-card" data-category="trail">
+            <div class="category-image-wrap">
+              <img src="assets/Home/category_section/image2.png" alt="Trail running shoes on rocky mountain terrain" class="category-img" loading="lazy">
+              <div class="category-card-overlay"></div>
+            </div>
+            <div class="category-card-content">
+              <h3 class="category-card-title">Trail Running</h3>
+              <p class="category-card-sub">Grip, protection, adventure.</p>
+              <a href="#category-trail" class="category-card-link">
+                SHOP
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 3: Apparel -->
+          <article class="category-card" data-category="apparel">
+            <div class="category-image-wrap">
+              <img src="assets/Home/category_section/image3.png" alt="Male runner in technical athletic apparel" class="category-img" loading="lazy">
+              <div class="category-card-overlay"></div>
+            </div>
+            <div class="category-card-content">
+              <h3 class="category-card-title">Apparel</h3>
+              <p class="category-card-sub">Layers built for every mile.</p>
+              <a href="#category-apparel" class="category-card-link">
+                SHOP
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+          </article>
+
+          <!-- Card 4: Accessories -->
+          <article class="category-card" data-category="accessories">
+            <div class="category-image-wrap">
+              <img src="assets/Home/category_section/image4.png" alt="GPS running smartwatch on wrist" class="category-img" loading="lazy">
+              <div class="category-card-overlay"></div>
+            </div>
+            <div class="category-card-content">
+              <h3 class="category-card-title">Accessories</h3>
+              <p class="category-card-sub">Watches, packs, fuel.</p>
+              <a href="#category-accessories" class="category-card-link">
+                SHOP
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 02 · JUST LANDED / NEW ARRIVALS -->
+    <section class="section section-arrivals" id="new-arrivals">
+      <div class="container">
+        <!-- Section Header with Filter Pills -->
+        <div class="section-header-flex arrivals-header-wrap">
+          <div class="section-title-wrap">
+            <span class="section-tag-num" id="catalogSectionTag">02 · JUST LANDED</span>
+            <h2 class="section-heading" id="catalogSectionHeading">New arrivals for the run.</h2>
+          </div>
+          <!-- Filter Tabs -->
+          <div class="filter-pill-group" role="tablist" aria-label="Product Filters">
+            <button class="filter-pill active" role="tab" aria-selected="true" data-filter="all">New In</button>
+            <button class="filter-pill" role="tab" aria-selected="false" data-filter="men">Men's</button>
+            <button class="filter-pill" role="tab" aria-selected="false" data-filter="women">Women's</button>
+            <button class="filter-pill" role="tab" aria-selected="false" data-filter="watches">Watches & Gear</button>
+            <button class="filter-pill" role="tab" aria-selected="false" data-filter="bestsellers">Best Sellers</button>
+            <button class="filter-pill" role="tab" aria-selected="false" data-filter="raceday">Race Day</button>
+            <button class="filter-pill" role="tab" aria-selected="false" data-filter="trail">Trail</button>
+            <button class="filter-pill" role="tab" aria-selected="false" data-filter="sale">Sale</button>
+          </div>
+        </div>
+
+        <!-- Dynamic Filter Notification Status (Optional) -->
+        <div class="filter-active-status" id="filterActiveStatus" style="display:none; margin-bottom: 20px; font-size: 0.9rem; font-weight: 700; color: var(--accent-orange);">
+          <span>Showing: <strong id="filterStatusName">All Products</strong></span>
+          <button id="resetFilterBtn" style="margin-left: 12px; font-size: 0.8rem; text-decoration: underline; cursor: pointer; color: var(--text-dark);">Reset to All</button>
+        </div>
+
+        <!-- 4-Column Product Grid -->
+        <div class="products-grid" id="productsGrid">
+          <!-- Product 1: ON Cloudmonster 3 (Shoes / Men / Women / Road) -->
+          <article class="product-card" data-tags="all men women footwear road bestsellers raceday" data-category="footwear">
+            <div class="product-img-box">
+              <span class="product-badge badge-dark">NEW</span>
+              <button class="product-wishlist-btn" aria-label="Save to Wishlist" data-id="1">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                </svg>
+              </button>
+              <img src="assets/Home/arrivals_section/image.png" alt="ON Cloudmonster 3 — Hyper Lily" class="product-img" loading="lazy">
+              <button class="quick-add-btn" data-id="1" data-name="ON Cloudmonster 3 — Hyper Lily" data-price="210" data-brand="ON">
+                + Quick Add
+              </button>
+            </div>
+            <div class="product-info">
+              <p class="product-brand">ON</p>
+              <h3 class="product-name">Cloudmonster 3 — Hyper Lily</h3>
+              <p class="product-price">£210</p>
+            </div>
+          </article>
+
+          <!-- Product 2: Nike Vaporfly 4 (Shoes / Men / Road / Race Day) -->
+          <article class="product-card" data-tags="all men footwear road bestsellers raceday" data-category="footwear">
+            <div class="product-img-box">
+              <span class="product-badge badge-dark">NEW</span>
+              <button class="product-wishlist-btn" aria-label="Save to Wishlist" data-id="2">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                </svg>
+              </button>
+              <img src="assets/Home/arrivals_section/image.png" alt="Nike Vaporfly 4 — Volt Ice" class="product-img" loading="lazy">
+              <button class="quick-add-btn" data-id="2" data-name="Nike Vaporfly 4 — Volt Ice" data-price="240" data-brand="Nike">
+                + Quick Add
+              </button>
+            </div>
+            <div class="product-info">
+              <p class="product-brand">Nike</p>
+              <h3 class="product-name">Vaporfly 4 — Volt Ice</h3>
+              <p class="product-price">£240</p>
+            </div>
+          </article>
+
+          <!-- Product 3: Hoka Tecton X 4 (Shoes / Women / Trail) -->
+          <article class="product-card" data-tags="all women footwear trail" data-category="footwear">
+            <div class="product-img-box">
+              <span class="product-badge badge-dark">NEW</span>
+              <button class="product-wishlist-btn" aria-label="Save to Wishlist" data-id="3">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                </svg>
+              </button>
+              <img src="assets/Home/arrivals_section/image.png" alt="Hoka Tecton X 4 — Frost / Tangerine" class="product-img" loading="lazy">
+              <button class="quick-add-btn" data-id="3" data-name="Hoka Tecton X 4 — Frost / Tangerine" data-price="220" data-brand="Hoka">
+                + Quick Add
+              </button>
+            </div>
+            <div class="product-info">
+              <p class="product-brand">Hoka</p>
+              <h3 class="product-name">Tecton X 4 — Frost / Tangerine</h3>
+              <p class="product-price">£220</p>
+            </div>
+          </article>
+
+          <!-- Product 4: Asics Megablast (Shoes / Men / Women / Sale) -->
+          <article class="product-card" data-tags="all men women footwear road sale bestsellers raceday" data-category="footwear">
+            <div class="product-img-box">
+              <span class="product-badge badge-sale">SALE</span>
+              <button class="product-wishlist-btn" aria-label="Save to Wishlist" data-id="4">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                </svg>
+              </button>
+              <img src="assets/Home/arrivals_section/image.png" alt="Asics Megablast — White / Orange Glow" class="product-img" loading="lazy">
+              <button class="quick-add-btn" data-id="4" data-name="Asics Megablast — White / Orange Glow" data-price="210" data-brand="Asics">
+                + Quick Add
+              </button>
+            </div>
+            <div class="product-info">
+              <p class="product-brand">Asics</p>
+              <h3 class="product-name">Megablast — White / Orange Glow</h3>
+              <p class="product-price">£210</p>
+            </div>
+          </article>
+
+          <!-- Product 5: Garmin Forerunner 965 GPS Watch (Watches & Gear) -->
+          <article class="product-card" data-tags="all watches accessories men women bestsellers" data-category="accessories">
+            <div class="product-img-box">
+              <span class="product-badge badge-dark">GPS</span>
+              <button class="product-wishlist-btn" aria-label="Save to Wishlist" data-id="5">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                </svg>
+              </button>
+              <img src="assets/Home/category_section/image4.png" alt="Garmin Forerunner 965 Running Smartwatch" class="product-img" loading="lazy">
+              <button class="quick-add-btn" data-id="5" data-name="Garmin Forerunner 965 — Titanium Black" data-price="520" data-brand="Garmin">
+                + Quick Add
+              </button>
+            </div>
+            <div class="product-info">
+              <p class="product-brand">Garmin</p>
+              <h3 class="product-name">Forerunner 965 — Titanium Black</h3>
+              <p class="product-price">£520</p>
+            </div>
+          </article>
+
+          <!-- Product 6: COROS PACE 3 GPS Watch (Watches & Gear) -->
+          <article class="product-card" data-tags="all watches accessories men women raceday" data-category="accessories">
+            <div class="product-img-box">
+              <span class="product-badge badge-dark">NEW</span>
+              <button class="product-wishlist-btn" aria-label="Save to Wishlist" data-id="6">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                </svg>
+              </button>
+              <img src="assets/Home/category_section/image4.png" alt="COROS PACE 3 GPS Multisport Watch" class="product-img" loading="lazy">
+              <button class="quick-add-btn" data-id="6" data-name="COROS PACE 3 — White Nylon" data-price="219" data-brand="COROS">
+                + Quick Add
+              </button>
+            </div>
+            <div class="product-info">
+              <p class="product-brand">COROS</p>
+              <h3 class="product-name">PACE 3 — Lightweight White Nylon</h3>
+              <p class="product-price">£219</p>
+            </div>
+          </article>
+
+          <!-- Product 7: Men's Technical Aero Singlet (Apparel / Men) -->
+          <article class="product-card" data-tags="all men apparel raceday bestsellers" data-category="apparel">
+            <div class="product-img-box">
+              <span class="product-badge badge-dark">MEN'S</span>
+              <button class="product-wishlist-btn" aria-label="Save to Wishlist" data-id="7">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                </svg>
+              </button>
+              <img src="assets/Home/category_section/image3.png" alt="Men's Technical Aero Race Singlet" class="product-img" loading="lazy">
+              <button class="quick-add-btn" data-id="7" data-name="Paceline Men's Aero Singlet" data-price="68" data-brand="PACELINE">
+                + Quick Add
+              </button>
+            </div>
+            <div class="product-info">
+              <p class="product-brand">PACELINE</p>
+              <h3 class="product-name">Men's Aero Pro Singlet — Obsidian</h3>
+              <p class="product-price">£68</p>
+            </div>
+          </article>
+
+          <!-- Product 8: Women's Tempo Pace Crop Tank & Tight (Apparel / Women) -->
+          <article class="product-card" data-tags="all women apparel bestsellers" data-category="apparel">
+            <div class="product-img-box">
+              <span class="product-badge badge-sale">POPULAR</span>
+              <button class="product-wishlist-btn" aria-label="Save to Wishlist" data-id="8">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+                </svg>
+              </button>
+              <img src="assets/Home/explore_section/image_female.png" alt="Women's High-Rise Tempo Running Tight" class="product-img" loading="lazy">
+              <button class="quick-add-btn" data-id="8" data-name="Women's Tempo High-Rise Tight" data-price="85" data-brand="PACELINE">
+                + Quick Add
+              </button>
+            </div>
+            <div class="product-info">
+              <p class="product-brand">PACELINE</p>
+              <h3 class="product-name">Women's Tempo High-Rise Tight</h3>
+              <p class="product-price">£85</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- STORY SPLIT SECTION (Dark Background Banner) -->
+    <section class="section-story-split" id="story-highlight">
+      <div class="story-split-grid">
+        <!-- Left Full Image -->
+        <div class="story-split-image-col">
+          <img src="assets/Home/story_section/image.png" alt="Trail runner conquering mountain ridge above cloud inversion" class="story-split-img" loading="lazy">
+        </div>
+
+        <!-- Right Text Content (Dark Panel) -->
+        <div class="story-split-content-col">
+          <div class="story-split-inner">
+            <span class="story-accent-tag">OUR STORY</span>
+            <h2 class="story-split-title">Built by runners.<br>Worn on every terrain.</h2>
+            <p class="story-split-desc">
+              PACELINE opened in 2015 with one goal — to become an all-inclusive hub for runners. Twenty seasons in, we still hand-pick every shoe, every layer and every accessory in our range. From your first Couch-to-5K to your third marathon, we prepare, empower and equip you with zero compromise on performance or style.
+            </p>
+
+            <!-- 3-Column Stats -->
+            <div class="story-stats-grid">
+              <div class="story-stat-item">
+                <span class="stat-number">10+</span>
+                <span class="stat-label">YEARS IN SPORT</span>
+              </div>
+              <div class="story-stat-item">
+                <span class="stat-number">40+</span>
+                <span class="stat-label">BRANDS STOCKED</span>
+              </div>
+              <div class="story-stat-item">
+                <span class="stat-number">1</span>
+                <span class="stat-label">STORE IN GLASGOW</span>
+              </div>
+            </div>
+
+            <div class="story-cta-wrap">
+              <a href="about.html" class="btn btn-outline-white">
+                READ THE FULL STORY
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPLORE / SPLIT BANNERS (Men's vs Women's) -->
+    <section class="section section-explore" id="explore-gender">
+      <div class="container">
+        <div class="explore-dual-grid">
+          <!-- Banner 1: Men's Running -->
+          <div class="explore-card" id="men">
+            <div class="explore-img-wrap">
+              <img src="assets/Home/explore_section/image_male.png" alt="Male runner in full stride on track" class="explore-img" loading="lazy">
+              <div class="explore-gradient-overlay"></div>
+            </div>
+            <div class="explore-card-content">
+              <h3 class="explore-card-title">Men's Running</h3>
+              <p class="explore-card-sub">Pyjamas & running kit from race-day heroes.</p>
+              <a href="#shop-mens" class="explore-card-link">
+                SHOP NOW
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Banner 2: Women's Running -->
+          <div class="explore-card" id="women">
+            <div class="explore-img-wrap">
+              <img src="assets/Home/explore_section/image_female.png" alt="Female runner doing warm-up stretches in activewear" class="explore-img" loading="lazy">
+              <div class="explore-gradient-overlay"></div>
+            </div>
+            <div class="explore-card-content">
+              <h3 class="explore-card-title">Women's Running</h3>
+              <p class="explore-card-sub">20% of profits from kits go to Girls Run Glasgow.</p>
+              <a href="#shop-womens" class="explore-card-link">
+                SHOP NOW
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWSLETTER SUBSCRIPTION BAR -->
+    <section class="newsletter-section" id="newsletter">
+      <div class="container">
+        <div class="newsletter-inner">
+          <div class="newsletter-text-wrap">
+            <h2 class="newsletter-title">Join the Paceline club.</h2>
+            <p class="newsletter-sub">Early access to new drops, race-day tips, and 10% off your first order.</p>
+          </div>
+          <form class="newsletter-form" id="newsletterForm" onsubmit="return false;">
+            <div class="newsletter-input-group">
+              <input type="email" class="newsletter-input" id="newsletterEmail" placeholder="your@email.com" required aria-label="Email address for newsletter">
+              <button type="submit" class="btn btn-subscribe" id="subscribeBtn">SUBSCRIBE</button>
+            </div>
+            <div class="form-feedback" id="newsletterFeedback"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1: Brand info -->
+        <div class="footer-col footer-col-brand">
+          <a href="index.html" class="footer-logo">PACELINE</a>
+          <p class="footer-brand-desc">
+            Race-day gear, trail-tested essentials, and everyday running kit — curated in Glasgow since 2015.
+          </p>
+        </div>
+
+        <!-- Col 2: SHOP -->
+        <div class="footer-col">
+          <h4 class="footer-col-title">SHOP</h4>
+          <ul class="footer-links">
+            <li><a href="#men">Men's</a></li>
+            <li><a href="#women">Women's</a></li>
+            <li><a href="#footwear">Footwear</a></li>
+            <li><a href="#apparel">Apparel</a></li>
+            <li><a href="#accessories">Accessories</a></li>
+            <li><a href="#sale">Sale</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: HELP -->
+        <div class="footer-col">
+          <h4 class="footer-col-title">HELP</h4>
+          <ul class="footer-links">
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#shipping">Shipping</a></li>
+            <li><a href="#returns">Returns</a></li>
+            <li><a href="#size-guides">Size Guides</a></li>
+            <li><a href="#gait-analysis">Gait Analysis</a></li>
+            <li><a href="#faqs">FAQs</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: COMPANY -->
+        <div class="footer-col">
+          <h4 class="footer-col-title">COMPANY</h4>
+          <ul class="footer-links">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="about.html#visit-us">Store · Glasgow</a></li>
+            <li><a href="#sustainability">Sustainability</a></li>
+            <li><a href="#careers">Careers</a></li>
+            <li><a href="#wholesale">Wholesale</a></li>
+            <li><a href="#press">Press</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 5: FOLLOW -->
+        <div class="footer-col">
+          <h4 class="footer-col-title">FOLLOW</h4>
+          <ul class="footer-links">
+            <li><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></li>
+            <li><a href="https://strava.com" target="_blank" rel="noopener">Strava</a></li>
+            <li><a href="https://tiktok.com" target="_blank" rel="noopener">TikTok</a></li>
+            <li><a href="https://youtube.com" target="_blank" rel="noopener">YouTube</a></li>
+            <li><a href="#newsletter">Newsletter</a></li>
+            <li><a href="#blog">Blog</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Bottom Sub-Footer -->
+      <div class="footer-bottom-bar">
+        <p class="copyright-text">© 2026 Paceline Running Co. — All rights reserved.</p>
+        <ul class="legal-links">
+          <li><a href="#privacy">Privacy</a></li>
+          <li><a href="#terms">Terms</a></li>
+          <li><a href="#cookies">Cookies</a></li>
+          <li><a href="#accessibility">Accessibility</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Slide-in Shopping Cart Drawer -->
+  <div class="cart-drawer-overlay" id="cartOverlay"></div>
+  <aside class="cart-drawer" id="cartDrawer" aria-label="Shopping Cart Drawer" aria-hidden="true">
+    <div class="cart-drawer-header">
+      <h3 class="cart-drawer-title">Your Cart (<span id="cartItemCount">0</span>)</h3>
+      <button class="cart-drawer-close" id="closeCartBtn" aria-label="Close cart">&times;</button>
+    </div>
+    <div class="cart-drawer-body" id="cartDrawerBody">
+      <div class="empty-cart-state" id="emptyCart">
+        <p>Your bag is currently empty.</p>
+        <a href="#new-arrivals" class="btn btn-primary btn-sm" id="shopNowCartBtn">Explore New In</a>
+      </div>
+      <div class="cart-items-list" id="cartItemsList"></div>
+    </div>
+    <div class="cart-drawer-footer" id="cartFooter">
+      <div class="cart-subtotal-row">
+        <span>Subtotal</span>
+        <span class="subtotal-amount" id="cartSubtotal">£0.00</span>
+      </div>
+      <p class="shipping-note">Free standard shipping on orders over £75</p>
+      <button class="btn btn-primary btn-block checkout-btn" id="checkoutBtn">CHECKOUT</button>
+    </div>
+  </aside>
+
+  <!-- Interactive Search Modal -->
+  <div class="search-modal" id="searchModal" aria-hidden="true">
+    <div class="search-modal-backdrop" id="searchModalBackdrop"></div>
+    <div class="search-modal-dialog">
+      <div class="search-input-wrap">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <input type="text" id="searchInput" placeholder="Search shoes, apparel, accessories..." autofocus>
+        <button class="search-close-btn" id="closeSearchBtn">&times;</button>
+      </div>
+      <div class="search-results-box" id="searchResults">
+        <p class="search-hint">Popular: Cloudmonster, Vaporfly, Tecton X, Gait Analysis</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
